@@ -18,6 +18,9 @@
 		CDE36B0017CC99A900C9AD93 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CDE36AFF17CC99A900C9AD93 /* Default-568h@2x.png */; };
 		CDE36B0317CC99A900C9AD93 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CDE36B0217CC99A900C9AD93 /* ViewController.m */; };
 		CDE36B0617CC99A900C9AD93 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CDE36B0417CC99A900C9AD93 /* ViewController.xib */; };
+		CDE36B0D17CC9A0400C9AD93 /* Profile_256.png in Resources */ = {isa = PBXBuildFile; fileRef = CDE36B0C17CC9A0400C9AD93 /* Profile_256.png */; };
+		CDE36B0F17CC9A9900C9AD93 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDE36B0E17CC9A9900C9AD93 /* QuartzCore.framework */; };
+		CDE36B1117CCAE4800C9AD93 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDE36B1017CCAE4800C9AD93 /* Accelerate.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +40,9 @@
 		CDE36B0117CC99A900C9AD93 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		CDE36B0217CC99A900C9AD93 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		CDE36B0517CC99A900C9AD93 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		CDE36B0C17CC9A0400C9AD93 /* Profile_256.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Profile_256.png; sourceTree = "<group>"; };
+		CDE36B0E17CC9A9900C9AD93 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		CDE36B1017CCAE4800C9AD93 /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +50,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CDE36B1117CCAE4800C9AD93 /* Accelerate.framework in Frameworks */,
+				CDE36B0F17CC9A9900C9AD93 /* QuartzCore.framework in Frameworks */,
 				CDE36AEA17CC99A900C9AD93 /* UIKit.framework in Frameworks */,
 				CDE36AEC17CC99A900C9AD93 /* Foundation.framework in Frameworks */,
 				CDE36AEE17CC99A900C9AD93 /* CoreGraphics.framework in Frameworks */,
@@ -56,6 +64,8 @@
 		CDE36ADD17CC99A900C9AD93 = {
 			isa = PBXGroup;
 			children = (
+				CDE36B1017CCAE4800C9AD93 /* Accelerate.framework */,
+				CDE36B0E17CC9A9900C9AD93 /* QuartzCore.framework */,
 				CDE36AEF17CC99A900C9AD93 /* TestBlurView */,
 				CDE36AE817CC99A900C9AD93 /* Frameworks */,
 				CDE36AE717CC99A900C9AD93 /* Products */,
@@ -88,6 +98,7 @@
 				CDE36B0117CC99A900C9AD93 /* ViewController.h */,
 				CDE36B0217CC99A900C9AD93 /* ViewController.m */,
 				CDE36B0417CC99A900C9AD93 /* ViewController.xib */,
+				CDE36B0C17CC9A0400C9AD93 /* Profile_256.png */,
 				CDE36AF017CC99A900C9AD93 /* Supporting Files */,
 			);
 			path = TestBlurView;
@@ -163,6 +174,7 @@
 				CDE36AFE17CC99A900C9AD93 /* Default@2x.png in Resources */,
 				CDE36B0017CC99A900C9AD93 /* Default-568h@2x.png in Resources */,
 				CDE36B0617CC99A900C9AD93 /* ViewController.xib in Resources */,
+				CDE36B0D17CC9A0400C9AD93 /* Profile_256.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

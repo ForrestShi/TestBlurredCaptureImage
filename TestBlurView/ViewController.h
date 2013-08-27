@@ -10,4 +10,7 @@
 
 @interface ViewController : UIViewController
 
+@property (strong) IBOutlet UIImageView *resultImgView;
+
+- (IBAction)onPressMe:(id)sender;
 @end
