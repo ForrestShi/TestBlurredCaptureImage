@@ -21,6 +21,7 @@
 		CDE36B0D17CC9A0400C9AD93 /* Profile_256.png in Resources */ = {isa = PBXBuildFile; fileRef = CDE36B0C17CC9A0400C9AD93 /* Profile_256.png */; };
 		CDE36B0F17CC9A9900C9AD93 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDE36B0E17CC9A9900C9AD93 /* QuartzCore.framework */; };
 		CDE36B1117CCAE4800C9AD93 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDE36B1017CCAE4800C9AD93 /* Accelerate.framework */; };
+		CDE36B1317CCB1DE00C9AD93 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = CDE36B1217CCB1DE00C9AD93 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -43,6 +44,7 @@
 		CDE36B0C17CC9A0400C9AD93 /* Profile_256.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Profile_256.png; sourceTree = "<group>"; };
 		CDE36B0E17CC9A9900C9AD93 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		CDE36B1017CCAE4800C9AD93 /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
+		CDE36B1217CCB1DE00C9AD93 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +66,7 @@
 		CDE36ADD17CC99A900C9AD93 = {
 			isa = PBXGroup;
 			children = (
+				CDE36B1217CCB1DE00C9AD93 /* README.md */,
 				CDE36B1017CCAE4800C9AD93 /* Accelerate.framework */,
 				CDE36B0E17CC9A9900C9AD93 /* QuartzCore.framework */,
 				CDE36AEF17CC99A900C9AD93 /* TestBlurView */,
@@ -175,6 +178,7 @@
 				CDE36B0017CC99A900C9AD93 /* Default-568h@2x.png in Resources */,
 				CDE36B0617CC99A900C9AD93 /* ViewController.xib in Resources */,
 				CDE36B0D17CC9A0400C9AD93 /* Profile_256.png in Resources */,
+				CDE36B1317CCB1DE00C9AD93 /* README.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
